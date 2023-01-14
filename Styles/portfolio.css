@@ -78,6 +78,9 @@ nav li {
     margin-bottom: 30px;
 
 }
+.section{
+    margin-top: 130px;
+}
 
 /* main section */
 main {
@@ -95,10 +98,11 @@ main {
 }
 
 .section-title {
-  
+    text-align: center;
      margin-bottom: 30px;
      font-size: 35px;
      font-weight: 700;
+     gap: 30px;
     
 }
 
@@ -123,5 +127,40 @@ main {
 /* What i do styles */
 .what-i-do{
     margin-top: 130px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+    
+   
 
+}
+.paragraph{
+    text-align: center;
+    
+    width: 909px;
+    height: 90px;
+    top: 1725px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+  
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
 }
